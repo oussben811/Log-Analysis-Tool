@@ -1,0 +1,11 @@
+{
+    "failed_login": "Failed login.*from (\\d+\\.\\d+\\.\\d+\\.\\d+)",
+    "sql_injection": "(SELECT|UNION|DROP|INSERT).*('|;)",
+    "xss_attempt": "(<script>|alert\\(|eval\\()",
+    "file_access": "(\\.\\.\\/|\\/etc\\/passwd|\\/etc\\/shadow)",
+    "admin_login": "admin.*login.*successful",
+    "port_scan": "(port scan|port sweep).*from (\\d+\\.\\d+\\.\\d+\\.\\d+)",
+    "brute_force": "multiple failed login attempts.*from (\\d+\\.\\d+\\.\\d+\\.\\d+)",
+    "malware_detection": "(trojan|malware|virus|ransomware) detected",
+    "privilege_escalation": "sudo|su|privilege escalation.*by (.+)"
+}
